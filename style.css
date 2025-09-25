@@ -1,0 +1,24 @@
+/* Custom tweaks on top of Bootstrap */
+
+/* Smooth hover on buttons */
+.btn-dark:hover {
+  background-color: #f39c12;
+  border-color: #f39c12;
+  color: #fff;
+}
+
+/* Card hover effect */
+.card:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+}
+
+/* Footer link hover */
+footer a:hover {
+  color: #fff;
+}
+
+/* Optional: hero overlay text */
+.bg-dark.bg-opacity-75 {
+  border-radius: 10px;
+}
